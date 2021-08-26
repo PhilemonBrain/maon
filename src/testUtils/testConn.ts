@@ -3,7 +3,7 @@ import { createConnection } from "typeorm"
 const testConn = () => {
     return createConnection({
       type: "mongodb",
-      url:"mongodb+srv://philemonBrain:0q22qeY8FNO0Waya@mycluster.vuxlq.mongodb.net/testDb?retryWrites=true&w=majority",
+      url:"Test DB to use",
       synchronize: true,
       logging: false,
       dropSchema: true,

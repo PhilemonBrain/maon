@@ -7,7 +7,7 @@ Steps to run this project:
 3. Run `yarn start` command
 4. Navigate to localhost:<port>/graphql on your browser and you will be redirected to apollo studio or you can query directly with postman.
 5. Some of the endpoints are restricted to logged in user, so after you register you need run the Login mutation and and an accesstoken will be provided. This token will be used as a 'Bearer token' for those endpoints. (i am working on the assumption that you are familiar with graphql queries and mutation).
-
+6. env file with the following variables ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET
 
 
 Project Description:

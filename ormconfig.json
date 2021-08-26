@@ -1,6 +1,6 @@
 {
    "type": "mongodb",
-   "url":"mongodb+srv://philemonBrain:0q22qeY8FNO0Waya@mycluster.vuxlq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+   "url":"URL to the DB",
    "synchronize": true,
    "logging": false,
    "entities": [
